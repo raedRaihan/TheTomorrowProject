@@ -148,3 +148,58 @@ nav ul li a:hover::after
     margin-top: 22px;
 }
 
+ .contact button
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover
+{
+    background-color: darkred; 
+}
+
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding: 100px;
+}
+
+.contact label
+{
+    font-size:17px;
+    display:block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea
+{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    outline:none;
+}
+
+input:focus-within, textarea:focus-within
+{
+    outline:none;
+    border-color:gold;
+    border-width: 3px;
+}
+
+.contact textarea
+{
+    width: 500px;
+}
