@@ -208,7 +208,7 @@ input:focus-within, textarea:focus-within
     width: 500px;
 }
 
-.Credits, .Controls
+.Credits, .Controls, .HowTo
 {
     margin-top: 35px;
     display: flex;
